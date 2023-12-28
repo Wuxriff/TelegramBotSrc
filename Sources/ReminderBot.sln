@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BL", "BL", "{B90FD463-8588-4E0D-B588-73F90DF23BC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{1EEEB778-51F9-41EA-9C94-EEEF1B7ED32D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F38D782B-22F1-49AB-82C4-EE53A8B42D5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2578DC66-CCBC-42B5-BB49-6198E371B8D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{8E51518C-D673-47F1-BCCD-68F748974709}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderBot.BL", "src\ReminderBot.BL\ReminderBot.BL.csproj", "{6EDFA414-6451-454F-91C1-6D5122725AA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderBot.Mappings", "src\ReminderBot.Mappings\ReminderBot.Mappings.csproj", "{785256FA-F876-4DE0-B681-450E7A1FD9D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderBot.Service", "src\ReminderBot.Service\ReminderBot.Service.csproj", "{CEE449AF-A2D0-4DE1-8823-E179A5F5B553}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderBot.DataAccess", "src\ReminderBot.DataAccess\ReminderBot.DataAccess.csproj", "{C787C3D5-4572-4BF5-A0C5-D36DA67F894E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderBot.Entities", "src\ReminderBot.Entities\ReminderBot.Entities.csproj", "{A9D7086A-A4D6-4D48-ABF4-51229828D7CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderBot.Models", "src\ReminderBot.Models\ReminderBot.Models.csproj", "{2304A856-55CB-48E3-AE36-1FA6AC749F2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderBot.Shared", "src\ReminderBot.Shared\ReminderBot.Shared.csproj", "{E78FAFBE-D75F-4B09-972B-948DD0D8CD98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderBot.Tests", "src\ReminderBot.Tests\ReminderBot.Tests.csproj", "{8D83815A-415A-481D-820D-A93192D4A71B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EDFA414-6451-454F-91C1-6D5122725AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDFA414-6451-454F-91C1-6D5122725AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDFA414-6451-454F-91C1-6D5122725AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDFA414-6451-454F-91C1-6D5122725AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785256FA-F876-4DE0-B681-450E7A1FD9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785256FA-F876-4DE0-B681-450E7A1FD9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785256FA-F876-4DE0-B681-450E7A1FD9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785256FA-F876-4DE0-B681-450E7A1FD9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE449AF-A2D0-4DE1-8823-E179A5F5B553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE449AF-A2D0-4DE1-8823-E179A5F5B553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE449AF-A2D0-4DE1-8823-E179A5F5B553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE449AF-A2D0-4DE1-8823-E179A5F5B553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C787C3D5-4572-4BF5-A0C5-D36DA67F894E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C787C3D5-4572-4BF5-A0C5-D36DA67F894E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C787C3D5-4572-4BF5-A0C5-D36DA67F894E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C787C3D5-4572-4BF5-A0C5-D36DA67F894E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D7086A-A4D6-4D48-ABF4-51229828D7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D7086A-A4D6-4D48-ABF4-51229828D7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D7086A-A4D6-4D48-ABF4-51229828D7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D7086A-A4D6-4D48-ABF4-51229828D7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2304A856-55CB-48E3-AE36-1FA6AC749F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2304A856-55CB-48E3-AE36-1FA6AC749F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2304A856-55CB-48E3-AE36-1FA6AC749F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2304A856-55CB-48E3-AE36-1FA6AC749F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E78FAFBE-D75F-4B09-972B-948DD0D8CD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78FAFBE-D75F-4B09-972B-948DD0D8CD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78FAFBE-D75F-4B09-972B-948DD0D8CD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78FAFBE-D75F-4B09-972B-948DD0D8CD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D83815A-415A-481D-820D-A93192D4A71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D83815A-415A-481D-820D-A93192D4A71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D83815A-415A-481D-820D-A93192D4A71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D83815A-415A-481D-820D-A93192D4A71B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EDFA414-6451-454F-91C1-6D5122725AA2} = {B90FD463-8588-4E0D-B588-73F90DF23BC4}
+		{785256FA-F876-4DE0-B681-450E7A1FD9D5} = {B90FD463-8588-4E0D-B588-73F90DF23BC4}
+		{CEE449AF-A2D0-4DE1-8823-E179A5F5B553} = {1EEEB778-51F9-41EA-9C94-EEEF1B7ED32D}
+		{C787C3D5-4572-4BF5-A0C5-D36DA67F894E} = {F38D782B-22F1-49AB-82C4-EE53A8B42D5E}
+		{A9D7086A-A4D6-4D48-ABF4-51229828D7CD} = {F38D782B-22F1-49AB-82C4-EE53A8B42D5E}
+		{2304A856-55CB-48E3-AE36-1FA6AC749F2B} = {2578DC66-CCBC-42B5-BB49-6198E371B8D2}
+		{E78FAFBE-D75F-4B09-972B-948DD0D8CD98} = {2578DC66-CCBC-42B5-BB49-6198E371B8D2}
+		{8D83815A-415A-481D-820D-A93192D4A71B} = {8E51518C-D673-47F1-BCCD-68F748974709}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BB5FD13-EC94-49DC-9EE1-B9CD8811BAC9}
+	EndGlobalSection
+EndGlobal

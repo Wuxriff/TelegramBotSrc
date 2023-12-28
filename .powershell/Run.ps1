@@ -1,0 +1,1 @@
+PowerShell.Exe -File 'Build and prepare.ps1' "1.1" "C:\Temp\"

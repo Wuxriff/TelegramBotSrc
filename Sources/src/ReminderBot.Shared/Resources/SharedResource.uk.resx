@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Admin_NotAdminMessage" xml:space="preserve">
+    <value>Вибачте, але у вас немає прав доступу адміністратора</value>
+  </data>
+  <data name="Cancel_OperationCanceledMessage" xml:space="preserve">
+    <value>Операцію скасовано користувачем</value>
+  </data>
+  <data name="Create_HeaderParsedDateFormatMessage" xml:space="preserve">
+    <value>Це та дата та час, що ви хотіли: {0}?</value>
+  </data>
+  <data name="Create_HeaderParsedIncorrectMessage" xml:space="preserve">
+    <value>Добре, спробуйте задати дату в іншому форматі, більш розширеному та відповідному коректним форматам з довідки. Спробуйте створити коректне нагадування знову</value>
+  </data>
+  <data name="Create_InvalidDateFormatError" xml:space="preserve">
+    <value>Неприпустиме значення дати та часу. Використовуйте команду {0}, щоб дізнатися як створювати нагадування</value>
+  </data>
+  <data name="Create_InvalidTextError" xml:space="preserve">
+    <value>Не можна створити нагадування без тексту. Будь ласка, створіть коректне нагадування заново</value>
+  </data>
+  <data name="Create_NoButton" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+  <data name="Create_NoLocationFormatError" xml:space="preserve">
+    <value>Ви не можете створювати нагадування поки в налаштуваннях не встановлено місцезнаходження. Використовуйте команду {0}, щоб перейти в модуль налаштувань і встановити його</value>
+  </data>
+  <data name="Create_SuccessFormatMessage" xml:space="preserve">
+    <value>Нагадування створено. Буде викликано приблизно: {0}</value>
+  </data>
+  <data name="Create_YesButton" xml:space="preserve">
+    <value>Так</value>
+  </data>
+  <data name="Edit_DeleteReminderButton" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="Edit_InvalidUserMessage" xml:space="preserve">
+    <value>Помилка, ви намагаєтеся отримати доступ до чужих нагадувань</value>
+  </data>
+  <data name="Edit_ReminderDeletedMessage" xml:space="preserve">
+    <value>Нагадування видалено</value>
+  </data>
+  <data name="Edit_ShowReminderContentFormatMessage" xml:space="preserve">
+    <value>Нагадати в: {0}
+Вміст: {1}</value>
+  </data>
+  <data name="Exception_Message" xml:space="preserve">
+    <value>Відбулася невідома критична помилка, всі операції було скасовано</value>
+  </data>
+  <data name="Help_ContentFormatMessage" xml:space="preserve">
+    <value>КОНТЕНТ</value>
+  </data>
+  <data name="Help_HeaderMessage" xml:space="preserve">
+    <value>Цей модуль допоможе вам зрозуміти як користуватись ботом</value>
+  </data>
+  <data name="Help_SupportedLanguagesFormatMessage" xml:space="preserve">
+    <value>Підтримувані мови: {0}, {1}, {2}, {3}</value>
+  </data>
+  <data name="Manage_ExportAllButton" xml:space="preserve">
+    <value>Експорт у .txt</value>
+  </data>
+  <data name="Manage_ExportEmptyMessage" xml:space="preserve">
+    <value>Відсутні нагадування</value>
+  </data>
+  <data name="Manage_MainHeaderMessage" xml:space="preserve">
+    <value>Управління нагадуваннями. Тут ви можете переглянути ваші активні нагадування або експортувати весь архів як файл .txt</value>
+  </data>
+  <data name="Manage_ViewActiveButton" xml:space="preserve">
+    <value>Переглянути активні</value>
+  </data>
+  <data name="Manage_WelcomeMessage" xml:space="preserve">
+    <value>Ваші активні нагадування</value>
+  </data>
+  <data name="Pause_RemindersPausedMessage" xml:space="preserve">
+    <value>Нагадування припинено</value>
+  </data>
+  <data name="Reminder_ConfirmButton" xml:space="preserve">
+    <value>Підтвердити</value>
+  </data>
+  <data name="Reminder_InvalidUserMessage" xml:space="preserve">
+    <value>Помилка, ви намагаєтеся отримати доступ до чужих нагадувань</value>
+  </data>
+  <data name="Reminder_PostponeFormatButton" xml:space="preserve">
+    <value>Відкласти {0}хв</value>
+  </data>
+  <data name="Resume_RemindersResumedMessage" xml:space="preserve">
+    <value>Нагадування поновлено</value>
+  </data>
+  <data name="Settings_AutoDeleteFormatButton" xml:space="preserve">
+    <value>{0} автовидалення</value>
+  </data>
+  <data name="Settings_AutoDeleteHeaderMessage" xml:space="preserve">
+    <value>Ви хочете встановити параметри автовидалення для підтверджених нагадувань?</value>
+  </data>
+  <data name="Settings_AutoDeleteMenuFormatButton" xml:space="preserve">
+    <value>Задати автовидалення: {0}</value>
+  </data>
+  <data name="Settings_AutoDeleteMenu_Disabled" xml:space="preserve">
+    <value>вимкнено</value>
+  </data>
+  <data name="Settings_AutoDeleteMenu_Enabled" xml:space="preserve">
+    <value>увімкнено</value>
+  </data>
+  <data name="Settings_AutoDeleteSuccessFormatMessage" xml:space="preserve">
+    <value>Автовидалення для підтверджених нагадувань: {0}</value>
+  </data>
+  <data name="Settings_AutoDelete_Disable" xml:space="preserve">
+    <value>Вимкнути</value>
+  </data>
+  <data name="Settings_AutoDelete_Enable" xml:space="preserve">
+    <value>Увімкнути</value>
+  </data>
+  <data name="Settings_DateFormatCurrentFormatButton" xml:space="preserve">
+    <value>Залишити поточний ({0})</value>
+  </data>
+  <data name="Settings_DateFormatMenuButton" xml:space="preserve">
+    <value>Задати формат показу дати та часу</value>
+  </data>
+  <data name="Settings_DateFormatSuccessFormatMessage" xml:space="preserve">
+    <value>Формат дати та часу встановлений у: {0}</value>
+  </data>
+  <data name="Settings_DateFormatWelcomeMessage" xml:space="preserve">
+    <value>Виберіть новий формат дати та часу для відображення</value>
+  </data>
+  <data name="Settings_LanguageHeaderMessage" xml:space="preserve">
+    <value>Будь ласка, оберіть свою мову для бота. Вивчайте, що мову списку команд бота неможливо змінити і вона залишиться тією ж мовою, яка задана в налаштуваннях вашого Telegram-акаунта</value>
+  </data>
+  <data name="Settings_LanguageSuccessMessage" xml:space="preserve">
+    <value>Мова бота була змінена</value>
+  </data>
+  <data name="Settings_LocationHeaderMessage" xml:space="preserve">
+    <value>Боту необхідно знати часовий пояс, інакше він не зможе функціонувати. Ви можете натиснути кнопку знизу, щоб поділитися своїм точним місцезнаходженням або натиснути на іконку 'скріпки' і поділитися менш точним місцезнаходженням з ботом якщо ви побоюєтеся розкриття ваших особистих даних</value>
+  </data>
+  <data name="Settings_LocationInvalidLocationDataMessage" xml:space="preserve">
+    <value>Некоректні координати. Можливо, ви відправили зовсім не координати. Будь ласка, надішліть координати коректним способом, вказаним вище</value>
+  </data>
+  <data name="Settings_LocationInvalidLocationMessage" xml:space="preserve">
+    <value>Некоректні координати. Будь ласка, надішліть координати коректним способом, вказаним вище</value>
+  </data>
+  <data name="Settings_LocationShareButton" xml:space="preserve">
+    <value>📍 Натисніть, щоб поділитися точним розташуванням</value>
+  </data>
+  <data name="Settings_LocationSuccessMessage" xml:space="preserve">
+    <value>Успішно! Тепер ви можете створювати нагадування та використовувати всі інші функції бота
+Виявлені параметри локації:
+Країна: {0}
+Розташування: {1}
+Часовий пояс: {2}
+Формат відображення дати та часу за умовчанням (можуть бути змінені): {3}</value>
+  </data>
+  <data name="Settings_MainHeaderMessage" xml:space="preserve">
+    <value>Модуль налаштувань. Тут ви можете налаштувати різні параметри робота</value>
+  </data>
+  <data name="Settings_PostponeFormatMessage" xml:space="preserve">
+    <value>При відображенні нагадування можна відкласти його щоб бот нагадав про нього пізніше. Задайте це значення в хвилинах, дозволений діапазон ({0} - {1}), тільки цілочислові значення</value>
+  </data>
+  <data name="Settings_PostponeInvalidFormatMessage" xml:space="preserve">
+    <value>Неприпустиме значення для відкладання. Будь ласка, відправте нове значення для відкладення, дозволений діапазон ({0} - {1}), лише цілі значення</value>
+  </data>
+  <data name="Settings_PostponeMenuFormatButton" xml:space="preserve">
+    <value>Задати інтервал відкладання: {0}хв</value>
+  </data>
+  <data name="Settings_PostponeSuccessFormatMessage" xml:space="preserve">
+    <value>Відкладення нагадувань встановлено на: {0}хв</value>
+  </data>
+  <data name="Settings_SetLanguageMenuButton" xml:space="preserve">
+    <value>Задати мову бота</value>
+  </data>
+  <data name="Settings_SetLocationMenuFormatButton" xml:space="preserve">
+    <value>Поставити розташування: {0}</value>
+  </data>
+  <data name="Start_WelcomeFormatMessage" xml:space="preserve">
+    <value>👋 Привіт, {0}! Вітаємо в Reminder Bot!</value>
+  </data>
+  <data name="Stop_StopButton" xml:space="preserve">
+    <value>Зупинити</value>
+  </data>
+  <data name="Stop_StopEraseButton" xml:space="preserve">
+    <value>Зупинити та видалити</value>
+  </data>
+  <data name="Stop_StopMessage" xml:space="preserve">
+    <value>Ви хочете зупинити бота або зупинити та видалити дані?</value>
+  </data>
+  <data name="Stop_StoppedFormatMessage" xml:space="preserve">
+    <value>Reminder Bot зупинено. Якщо ви захочете використати його знову, будь ласка, відправте команду {0}</value>
+  </data>
+  <data name="TelegramBotCommandCancel" xml:space="preserve">
+    <value>Відмінити поточну операцію</value>
+  </data>
+  <data name="TelegramBotCommandHelp" xml:space="preserve">
+    <value>Довідка</value>
+  </data>
+  <data name="TelegramBotCommandManage" xml:space="preserve">
+    <value>Управління нагадуваннями</value>
+  </data>
+  <data name="TelegramBotCommandSettings" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="TelegramBotCommandStop" xml:space="preserve">
+    <value>Зупинити бота</value>
+  </data>
+  <data name="TelegramBot_UnregisteredUserFormatMessage" xml:space="preserve">
+    <value>Якщо ви хочете використовувати цей бот, будь ласка, відправте команду {0}</value>
+  </data>
+  <data name="Unknown_Message" xml:space="preserve">
+    <value>Невідома команда. Будь ласка, використовуйте меню команд для здійснення дій</value>
+  </data>
+</root>

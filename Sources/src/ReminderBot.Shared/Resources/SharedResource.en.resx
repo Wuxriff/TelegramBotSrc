@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Admin_NotAdminMessage" xml:space="preserve">
+    <value>Sorry, but you do not have administrator access rights</value>
+  </data>
+  <data name="Cancel_OperationCanceledMessage" xml:space="preserve">
+    <value>The operation is canceled by user</value>
+  </data>
+  <data name="Create_HeaderParsedDateFormatMessage" xml:space="preserve">
+    <value>Is this the date and time you wanted: {0}?</value>
+  </data>
+  <data name="Create_HeaderParsedIncorrectMessage" xml:space="preserve">
+    <value>Okay, try setting the date in a different format, more advanced and consistent with the correct formats from the help. Please, create the correct reminder again</value>
+  </data>
+  <data name="Create_InvalidDateFormatError" xml:space="preserve">
+    <value>Invalid date and time value. Use the {0} command to learn how to create reminders</value>
+  </data>
+  <data name="Create_InvalidTextError" xml:space="preserve">
+    <value>You cannot create a reminder without text. Please, create the correct reminder again</value>
+  </data>
+  <data name="Create_NoButton" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Create_NoLocationFormatError" xml:space="preserve">
+    <value>You cannot create reminders unless your location is set in the settings. Use the {0} command to go to the settings module and set it</value>
+  </data>
+  <data name="Create_SuccessFormatMessage" xml:space="preserve">
+    <value>Reminder created. Will be executed around: {0}</value>
+  </data>
+  <data name="Create_YesButton" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Edit_DeleteReminderButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Edit_InvalidUserMessage" xml:space="preserve">
+    <value>Error, you are trying to access someone else's reminder</value>
+  </data>
+  <data name="Edit_ReminderDeletedMessage" xml:space="preserve">
+    <value>Reminder deleted</value>
+  </data>
+  <data name="Edit_ShowReminderContentFormatMessage" xml:space="preserve">
+    <value>Remind at: {0}
+Content: {1}</value>
+  </data>
+  <data name="Exception_Message" xml:space="preserve">
+    <value>An unknown critical error occurred and all operations were canceled</value>
+  </data>
+  <data name="Help_ContentFormatMessage" xml:space="preserve">
+    <value>CONTENT</value>
+  </data>
+  <data name="Help_HeaderMessage" xml:space="preserve">
+    <value>This module will help you understand how to use the bot</value>
+  </data>
+  <data name="Help_SupportedLanguagesFormatMessage" xml:space="preserve">
+    <value>Supported languages: {0}, {1}, {2}, {3}</value>
+  </data>
+  <data name="Manage_ExportAllButton" xml:space="preserve">
+    <value>Export as .txt</value>
+  </data>
+  <data name="Manage_ExportEmptyMessage" xml:space="preserve">
+    <value>Reminders are missing</value>
+  </data>
+  <data name="Manage_MainHeaderMessage" xml:space="preserve">
+    <value>Reminders management. Here you can view your active reminders or export the entire archive as .txt file</value>
+  </data>
+  <data name="Manage_ViewActiveButton" xml:space="preserve">
+    <value>View active</value>
+  </data>
+  <data name="Manage_WelcomeMessage" xml:space="preserve">
+    <value>Your active reminders</value>
+  </data>
+  <data name="Pause_RemindersPausedMessage" xml:space="preserve">
+    <value>Reminders paused</value>
+  </data>
+  <data name="Reminder_ConfirmButton" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Reminder_InvalidUserMessage" xml:space="preserve">
+    <value>Error, you are trying to access someone else's reminder</value>
+  </data>
+  <data name="Reminder_PostponeFormatButton" xml:space="preserve">
+    <value>Postpone {0}m</value>
+  </data>
+  <data name="Resume_RemindersResumedMessage" xml:space="preserve">
+    <value>Reminders resumed</value>
+  </data>
+  <data name="Settings_AutoDeleteFormatButton" xml:space="preserve">
+    <value>{0} autodelete</value>
+  </data>
+  <data name="Settings_AutoDeleteHeaderMessage" xml:space="preserve">
+    <value>Do you want to change autodelete for confirmed reminders?</value>
+  </data>
+  <data name="Settings_AutoDeleteMenuFormatButton" xml:space="preserve">
+    <value>Change autodelete: {0}</value>
+  </data>
+  <data name="Settings_AutoDeleteMenu_Disabled" xml:space="preserve">
+    <value>disabled</value>
+  </data>
+  <data name="Settings_AutoDeleteMenu_Enabled" xml:space="preserve">
+    <value>enabled</value>
+  </data>
+  <data name="Settings_AutoDeleteSuccessFormatMessage" xml:space="preserve">
+    <value>Autodelete for confirmed reminders is: {0}</value>
+  </data>
+  <data name="Settings_AutoDelete_Disable" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="Settings_AutoDelete_Enable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="Settings_DateFormatCurrentFormatButton" xml:space="preserve">
+    <value>Keep current ({0})</value>
+  </data>
+  <data name="Settings_DateFormatMenuButton" xml:space="preserve">
+    <value>Change date and time display format</value>
+  </data>
+  <data name="Settings_DateFormatSuccessFormatMessage" xml:space="preserve">
+    <value>Date and time format is set to: {0}</value>
+  </data>
+  <data name="Settings_DateFormatWelcomeMessage" xml:space="preserve">
+    <value>Select new display date and time format</value>
+  </data>
+  <data name="Settings_LanguageHeaderMessage" xml:space="preserve">
+    <value>Please, select your bot language. Note that the language of the bot command list cannot be changed and it will remain in the same language that is specified in the settings of your Telegram account</value>
+  </data>
+  <data name="Settings_LanguageSuccessMessage" xml:space="preserve">
+    <value>Bot language has been changed</value>
+  </data>
+  <data name="Settings_LocationHeaderMessage" xml:space="preserve">
+    <value>The bot needs to know your time zone, otherwise it won't be able to work. You can click the button below to send your exact geolocation or click the 'paperclip' icon and share a less precise location with the bot if you are worried about revealing your personal data</value>
+  </data>
+  <data name="Settings_LocationInvalidLocationDataMessage" xml:space="preserve">
+    <value>Incorrect coordinates. It's possible that you didn't send coordinates at all. Please send the coordinates using the correct method specified above</value>
+  </data>
+  <data name="Settings_LocationInvalidLocationMessage" xml:space="preserve">
+    <value>Incorrect coordinates. Please, send the coordinates using the correct method specified above</value>
+  </data>
+  <data name="Settings_LocationShareButton" xml:space="preserve">
+    <value>📍 Click here to share your exact location </value>
+  </data>
+  <data name="Settings_LocationSuccessMessage" xml:space="preserve">
+    <value>Success! Now you can create reminders and use all the bot features
+Detected location parameters:
+Country: {0}
+Location: {1}
+Timezone: {2}
+Default display date and time format (can be changed in settings): {3}</value>
+  </data>
+  <data name="Settings_MainHeaderMessage" xml:space="preserve">
+    <value>Settings module. Here you can configure various bot parameters</value>
+  </data>
+  <data name="Settings_PostponeFormatMessage" xml:space="preserve">
+    <value>When a reminder is displayed, there is an option to postpone it so that the bot will remind you about it later. Set this value in minutes, allowed range ({0} - {1}), integer values only</value>
+  </data>
+  <data name="Settings_PostponeInvalidFormatMessage" xml:space="preserve">
+    <value>Invalid postpone value. Please, send a new value for postpone, allowed range ({0} - {1}), integer values only</value>
+  </data>
+  <data name="Settings_PostponeMenuFormatButton" xml:space="preserve">
+    <value>Change postpone delay: {0}m</value>
+  </data>
+  <data name="Settings_PostponeSuccessFormatMessage" xml:space="preserve">
+    <value>Reminders postpone is set to: {0}m</value>
+  </data>
+  <data name="Settings_SetLanguageMenuButton" xml:space="preserve">
+    <value>Change bot language</value>
+  </data>
+  <data name="Settings_SetLocationMenuFormatButton" xml:space="preserve">
+    <value>Change location: {0}</value>
+  </data>
+  <data name="Start_WelcomeFormatMessage" xml:space="preserve">
+    <value>👋 Hello {0}, welcome to Reminder Bot!</value>
+  </data>
+  <data name="Stop_StopButton" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Stop_StopEraseButton" xml:space="preserve">
+    <value>Stop and delete</value>
+  </data>
+  <data name="Stop_StopMessage" xml:space="preserve">
+    <value>Do you want to stop the bot or stop and delete your data?</value>
+  </data>
+  <data name="Stop_StoppedFormatMessage" xml:space="preserve">
+    <value>Reminder Bot stopped. If you want to use it again, please, send {0} command</value>
+  </data>
+  <data name="TelegramBotCommandCancel" xml:space="preserve">
+    <value>Cancel current operation</value>
+  </data>
+  <data name="TelegramBotCommandHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="TelegramBotCommandManage" xml:space="preserve">
+    <value>Manage reminders</value>
+  </data>
+  <data name="TelegramBotCommandSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="TelegramBotCommandStop" xml:space="preserve">
+    <value>Stop bot</value>
+  </data>
+  <data name="TelegramBot_UnregisteredUserFormatMessage" xml:space="preserve">
+    <value>If you want to use this bot, please, send {0} command</value>
+  </data>
+  <data name="Unknown_Message" xml:space="preserve">
+    <value>Unknown command. Please, use commands or menu to perform actions</value>
+  </data>
+</root>

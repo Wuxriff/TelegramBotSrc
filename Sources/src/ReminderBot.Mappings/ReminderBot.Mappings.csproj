@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Riok.Mapperly" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReminderBot.Entities\ReminderBot.Entities.csproj" />
+    <ProjectReference Include="..\ReminderBot.Models\ReminderBot.Models.csproj" />
+  </ItemGroup>
+
+</Project>
